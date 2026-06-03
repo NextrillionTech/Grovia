@@ -49,7 +49,7 @@ export const AboutSection: React.FC = () => {
             I am <span className="text-white font-semibold">Shubham Taneja</span>, founder of Grovia. I build websites, funnels, and brand systems that grow businesses.
           </h3>
           <p className="text-white/70 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto font-normal">
-            Over the last four years, I have worked with B2B companies, private schools, sports academies, and coaching businesses across India. Together, we have built websites, funnels, and brand systems that have helped them generate leads, win trust, and scale predictably.
+            Over the last five years, I have worked with B2B companies, private schools, sports academies, and coaching businesses across India. Together, we have built websites, funnels, and brand systems that have helped them generate leads, win trust, and scale predictably.
           </p>
         </motion.div>
 

@@ -109,10 +109,11 @@ export const FAQSection: React.FC = () => {
           >
             FAQ
           </motion.span>
-          <WordsPullUp
-            text="Frequently asked questions."
-            className="text-3xl md:text-5xl text-white tracking-tight font-normal flex-wrap"
-          />
+          <h2 className="text-3xl md:text-5xl text-white tracking-tight font-normal flex-wrap">
+            <WordsPullUp
+              text="Frequently asked questions."
+            />
+          </h2>
         </div>
 
         {/* FAQ Accordion List */}

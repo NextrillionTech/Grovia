@@ -82,10 +82,11 @@ export const ServicesSection: React.FC = () => {
           transition={{ duration: 0.7, ease: customEase }}
           className="flex justify-between items-end w-full mb-12"
         >
-          <WordsPullUp
-            text="What we build"
-            className="text-3xl md:text-5xl text-white tracking-tight font-normal flex-wrap"
-          />
+          <h2 className="text-3xl md:text-5xl text-white tracking-tight font-normal flex-wrap">
+            <WordsPullUp
+              text="What we build"
+            />
+          </h2>
           <span className="text-white/70 text-sm tracking-wider uppercase hidden sm:block mb-1 font-semibold">
             Our services
           </span>
@@ -250,7 +251,7 @@ export const ServicesSection: React.FC = () => {
                   Close
                 </button>
                 <a
-                  href="#contact"
+                  href="#final-cta"
                   onClick={() => setSelectedCard(null)}
                   className="bg-white text-black rounded-full px-6 py-2.5 text-sm font-semibold hover:scale-[1.02] active:scale-98 transition-all flex items-center gap-1.5"
                 >

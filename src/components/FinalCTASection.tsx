@@ -54,7 +54,7 @@ export const FinalCTASection: React.FC = () => {
   };
 
   return (
-    <section ref={sectionRef} className="bg-black py-28 md:py-40 px-6 relative overflow-hidden flex flex-col items-center border-t border-white/5 w-full">
+    <section id="final-cta" ref={sectionRef} className="bg-black py-28 md:py-40 px-6 relative overflow-hidden flex flex-col items-center border-t border-white/5 w-full">
       {/* Premium ambient glowing backing light behind the card */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-white/[0.02] rounded-full blur-[140px] pointer-events-none z-0" />
       

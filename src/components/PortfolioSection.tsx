@@ -64,10 +64,11 @@ export const PortfolioSection: React.FC = () => {
         
         {/* Header */}
         <div className="mb-20 text-left">
-          <WordsPullUp
-            text="Selected Work"
-            className="text-4xl md:text-6xl font-serif font-normal text-white tracking-tight"
-          />
+          <h2 className="text-4xl md:text-6xl font-serif font-normal text-white tracking-tight">
+            <WordsPullUp
+              text="Selected Work"
+            />
+          </h2>
           <p className="text-white/70 text-sm md:text-base max-w-2xl mt-4 leading-relaxed">
             Case studies of websites, lead funnels, and marketing systems built for business outcomes. No fluff, just measurable results.
           </p>
