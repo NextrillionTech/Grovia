@@ -251,11 +251,13 @@ export const ServicesSection: React.FC = () => {
                   Close
                 </button>
                 <a
-                  href="#final-cta"
+                  href="https://calendar.app.google/Xt6BvaNnmey3nJKV8"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={() => setSelectedCard(null)}
                   className="bg-white text-black rounded-full px-6 py-2.5 text-sm font-semibold hover:scale-[1.02] active:scale-98 transition-all flex items-center gap-1.5"
                 >
-                  <span>Request a project</span>
+                  <span>Book a call</span>
                   <ArrowUpRight className="w-4 h-4" />
                 </a>
               </div>

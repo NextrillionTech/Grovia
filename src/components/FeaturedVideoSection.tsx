@@ -46,7 +46,7 @@ export const FeaturedVideoSection: React.FC = () => {
 
             {/* Right: CTA Button */}
             <motion.a
-              href="#contact"
+              href="#final-cta"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="liquid-glass rounded-full px-8 py-3 text-white text-sm font-medium hover:bg-white/5 transition-colors w-fit md:mb-2 text-center"
