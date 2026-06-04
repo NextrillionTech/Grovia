@@ -128,7 +128,7 @@ export const Hero: React.FC = () => {
     };
   }, []);
 
-  const FORM_SUBMIT_URL = import.meta.env.VITE_AUDIT_FORM_URL || 'https://formspree.io/f/placeholder';
+  const FORM_SUBMIT_URL = import.meta.env.VITE_AUDIT_FORM_URL || '/api/submit-audit';
 
   const [url, setUrl] = useState('');
   const [email, setEmail] = useState('');
