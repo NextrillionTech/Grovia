@@ -12,6 +12,7 @@ import { ProcessSection } from './components/ProcessSection';
 import { FAQSection } from './components/FAQSection';
 import { FinalCTASection } from './components/FinalCTASection';
 import { Footer } from './components/Footer';
+import { WhatsAppWidget } from './components/WhatsAppWidget';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <FinalCTASection />
       </main>
       <Footer />
+      <WhatsAppWidget />
     </div>
   );
 }
