@@ -63,7 +63,7 @@ Implement these three specific changes this week to optimize your conversion pip
 ---
 
 ## What to do next:
-If you want to walk through the implementation details of these 3 wins, or see how we would code these optimizations directly onto your website, feel free to book a direct 30-minute Zoom call with me.
+If you want to walk through the implementation details of these 3 wins, or see how we would code these optimizations directly onto your website, feel free to book a direct 30-minute Google Meet call with me.
 
 No sales pitch, no commitment. Just a technical deep dive.
 

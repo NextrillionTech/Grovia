@@ -77,7 +77,7 @@ Our brand voice is **authoritative, professional, direct, and outcome-oriented.*
 * **Vocabulary Rules:**
   * *YES:* Detailed teardowns, conversion wins, growth engine, custom engineering, scale predictably, LCP, outcomes.
   * *NO:* Synergistic, holistic, video audits, Loom video, vanity metrics, boilerplate.
-* **Call-to-Action (CTA) Rule:** We lead with concrete value. Instead of forcing a sales call or pitch meeting, we offer a free detailed website audit/teardown with 3 actionable wins within 24 hours. The primary call booking link is a low-pressure scheduling link to book a direct 30-min Zoom call.
+* **Call-to-Action (CTA) Rule:** We lead with concrete value. Instead of forcing a sales call or pitch meeting, we offer a free detailed website audit/teardown with 3 actionable wins within 24 hours. The primary call booking link is a low-pressure scheduling link to book a direct 30-min Google Meet call.
 
 ---
 
@@ -224,13 +224,13 @@ To keep audit delivery fast (<20 minutes of founder effort per audit) and highly
 * **Section 1:** Core Web Vitals speed analysis (LCP data).
 * **Section 2:** Copywriting and B2B positioning feedback.
 * **Section 3:** 3 concrete "conversion wins" they can implement this week.
-* **Call to Action:** A direct button to book their Zoom strategy call to walk through the implementation.
+* **Call to Action:** A direct button to book their Google Meet strategy call to walk through the implementation.
 
 #### Move 3 — Indian Market Optimization (WhatsApp Chat Integration)
 For the Indian market, particularly school administrators and local coaching founders, email friction is high. We will add a subtle, floating WhatsApp chat icon in the bottom-right corner of the website (`pointer-events-auto`, index `z-50`) allowing visitors to start a chat and request an audit or ask questions directly on WhatsApp.
 
 #### Move 4 — Pre-Call Questionnaire Automation
-When a user schedules a Zoom strategy call via Google Calendar, we will configure 3 simple qualifying questions inside the calendar booking form:
+When a user schedules a Google Meet strategy call via Google Calendar, we will configure 3 simple qualifying questions inside the calendar booking form:
 1. What is your current website URL?
 2. What is your primary business goal this quarter?
 3. What is your estimated budget/timeline?
@@ -445,7 +445,7 @@ To build a highly predictable growth engine, we establish a **Goal-Based Budget 
 * **KPI Targets:**
   * Organic Search Impressions: >2,000/mo
   * Free Audit Requests: >10/mo
-  * Scheduled Zoom Discovery Calls: >6/mo
+  * Scheduled Google Meet Discovery Calls: >6/mo
   * Active Retainer Clients: 2
 * **S-Curve Position:** Staging the **Outbound Outreach S-Curve**; launching the local SEO organic baseline.
 
@@ -462,7 +462,7 @@ To build a highly predictable growth engine, we establish a **Goal-Based Budget 
 * **KPI Targets:**
   * Organic Search Impressions: >5,000/mo
   * Free Audit Requests: >25/mo
-  * Scheduled Zoom Discovery Calls: >12/mo
+  * Scheduled Google Meet Discovery Calls: >12/mo
   * Active Retainer Clients: 4
 * **S-Curve Position:** Scaling the **Outbound Outreach S-Curve**; staging the **Paid B2B Search S-Curve**.
 
@@ -478,7 +478,7 @@ To build a highly predictable growth engine, we establish a **Goal-Based Budget 
 * **KPI Targets:**
   * Organic Search Impressions: >10,000/mo
   * Free Audit Requests: >40/mo
-  * Scheduled Zoom Discovery Calls: >20/mo
+  * Scheduled Google Meet Discovery Calls: >20/mo
   * Active Retainer Clients: 6
 * **S-Curve Position:** Scaling the **Paid B2B Search S-Curve**; staging the **Partner Co-Marketing S-Curve** (referrals).
 
@@ -495,7 +495,7 @@ To build a highly predictable growth engine, we establish a **Goal-Based Budget 
 * **KPI Targets:**
   * Organic Search Impressions: >25,000/mo
   * Free Audit Requests: >60/mo
-  * Scheduled Zoom Discovery Calls: >30/mo
+  * Scheduled Google Meet Discovery Calls: >30/mo
   * Active Retainer Clients: 8
 * **S-Curve Position:** Scaling the **Partner Co-Marketing S-Curve**; staging the **Organic B2B Guide Content S-Curve**.
 
