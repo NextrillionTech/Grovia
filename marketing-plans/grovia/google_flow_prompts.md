@@ -16,34 +16,48 @@ As an automated agent, I cannot directly log in to your Google Account or intera
 
 ---
 
-## 2. Demo Video Storyboard & Generation Prompts
+## 2. Process Demo Video Storyboard & Generation Prompts
 
-These are designed as 3-to-5 second scene generation cards that you can generate and chain together in Google Flow.
+These are designed as 3-to-5 second scene generation cards that you can generate and chain together in Google Flow. The entrepreneur character (acting as Shubham's substitute / spokesperson) hosts the presentation.
 
-### Scene 1: The Hook (The Struggle)
-* **Visual**: The entrepreneur looking frustrated at his screen, reviewing a cluttered page builder with low speed scores.
+### Scene 1: The Hook (0:00 - 0:15)
+* **Visual**: Facecam/spokesperson talking directly to the camera, gesturing towards a floating virtual screen showing a Google/LinkedIn Ad dashboard with low speed metrics.
 * **Camera Movement**: Subtle slow zoom-in on his face.
-* **Lighting**: Cool blue ambient screen light reflecting on his face.
-* **Prompt**:
-  > `Medium close-up shot of a 28-year-old Indian male entrepreneur looking frustrated, screen reflection in his eyes, soft cool blue light, modern office setting at dusk. Photorealistic, shallow depth of field, slow cinematically controlled zoom-in, 8k resolution.`
+* **Audio Voiceover**: *"If you are running paid ads for your B2B startup, private school, or coaching brand in India, there is a 70% chance you are burning budget..."*
+* **Flow Prompt**:
+  > `Medium shot of a 28-year-old Indian male entrepreneur looking directly at the camera and talking confidently. He gestures with his hand to the right, where a holographic overlay of a Google Ads dashboard with declining graphs floats. Soft, directional studio lighting, shallow depth of field, modern dark-themed startup office, 8k resolution, photorealistic.`
 
-### Scene 2: The Breakthrough (AI Marketing Automation)
-* **Visual**: The entrepreneur smiling as neon white and emerald green data streams flow across the screen, transitioning to a highly polished dark-themed dashboard.
-* **Camera Movement**: Slide to the right, dynamic transition.
-* **Lighting**: Balanced warm studio lights with green accent glows.
-* **Prompt**:
-  > `Cinematic side-profile shot of the Indian entrepreneur smiling warmly, looking at a beautiful dark-mode glassmorphic interface, abstract emerald green and white data light streams floating in front of him, high-tech startup workspace, slow panning shot, photorealistic, 8k resolution.`
+### Scene 2: The Alternative (0:15 - 0:30)
+* **Visual**: The spokesperson pointing to a standard agency proposal document showing bloated retainer costs crossed out with a red stamp.
+* **Camera Movement**: Pan to the right, slight camera tilt.
+* **Audio Voiceover**: *"Traditional B2B marketing agencies charge bloated monthly retainers and hand off your account to junior designers. Freelancers are faster, but they rarely understand sales strategy..."*
+* **Flow Prompt**:
+  > `Medium close-up shot of the 28-year-old Indian male entrepreneur pointing to a sleek glass whiteboard displaying the text "Web Agency Proposal" with a red "CANCELLED" line crossing out the pricing. Confident expression, looking at the camera, cinematic lighting, 8k resolution, photorealistic.`
 
-### Scene 3: The Result (Predictable Growth)
-* **Visual**: The entrepreneur confidently talking to the camera / viewer in a premium glass-walled Gurugram conference room, holding a tablet showing high conversion charts.
-* **Camera Movement**: Crane up slightly, tracking shot.
-* **Lighting**: Natural bright daylight combined with warm cinematic key light.
-* **Prompt**:
-  > `Medium shot of a confident Indian male entrepreneur in a glass conference room looking towards the camera, holding a slim tablet showing green upward charts, cinematic lighting, shallow depth of field, Gurugram skyline out the window, slow dolly-back camera movement, photorealistic, 8k resolution.`
+### Scene 3: The Grovia Process (0:30 - 0:50)
+* **Visual**: The spokesperson sitting at a desk, typing on a laptop, and gesturing to a clean, fast-loading glassmorphic website interface loading in under 1.2s.
+* **Camera Movement**: Slow slide/tracking shot from side to center.
+* **Audio Voiceover**: *"We build custom websites, lead funnels, and brand systems engineered to convert. Our process is simple: First, we run a detailed teardown..."*
+* **Flow Prompt**:
+  > `Medium shot of the 28-year-old Indian male entrepreneur sitting at a designer office desk, looking at the camera, pointing to a high-end laptop showing a dark glassmorphic webpage with a prominent speed dial displaying "1.2s load speed". Warm key light, volumetric lighting, photorealistic, 8k resolution.`
 
-### Scene 4: Call to Action (Grovia Labs Monogram)
-* **Visual**: Elegant dark glassmorphic monogram of Grovia Labs (intertwined white and gold lines) resolving from a dust particle explosion in slow motion.
-* **Camera Movement**: Extreme macro shot pulling back to center.
-* **Lighting**: Golden volumetric glows on a pitch black background.
-* **Prompt**:
-  > `Macro shot, an elegant minimalist white and gold logo monogram slowly assembling on a pitch black background with tiny glowing dust particles drifting, high-end commercial style, clean typography, soft golden glow, 8k resolution, cinematic render.`
+### Scene 4: Case Studies & Outcomes (0:50 - 1:10)
+* **Visual**: The spokesperson gesturing towards three floating screen panels that showcase project mockups and bold outcome metrics.
+* **Camera Movement**: Tracking shot moving from left to right.
+* **Audio Voiceover**: *"We don't measure success in deliverables; we measure it in outcomes. Like helping our B2B SaaS clients achieve a 42% boost in demo bookings..."*
+* **Flow Prompt**:
+  > `Medium shot of the 28-year-old Indian male entrepreneur standing confidently, gesturing to three floating glass panels beside him displaying "+42% SaaS Demos", "180+ Inquiries", and "₹12L+ Pipeline". Corporate startup studio background, high-end commercial style, photorealistic, 8k resolution.`
+
+### Scene 5: Calendar Booking & WhatsApp Widget (1:10 - 1:30)
+* **Visual**: The spokesperson holding a smartphone towards the screen, showing the calendar booking page and the green floating WhatsApp widget.
+* **Camera Movement**: Slow zoom-in on the phone screen.
+* **Audio Voiceover**: *"No pushy sales pitches or long sales cycles. Request a free, personalized 3-point teardown report of your active landing page..."*
+* **Flow Prompt**:
+  > `Medium close-up shot of the 28-year-old Indian male entrepreneur smiling warmly, holding a sleek black smartphone in his hand and pointing to the screen showing a calendar scheduler interface and a green WhatsApp floating button. Soft lighting, modern office workspace, photorealistic, 8k resolution.`
+
+### Scene 6: Outro & Call to Action (1:30 - 1:45)
+* **Visual**: High-end brand outro showing the gold and white "Grovia Labs" logo monogram resolving in center screen.
+* **Camera Movement**: Zoom-out/pull-back.
+* **Audio Voiceover**: *"Let's build your growth engine. Go to grovialabs.in and request your teardown today."*
+* **Flow Prompt**:
+  > `Elegant minimalist white and gold logo monogram "Grovia Labs" assembling smoothly from glowing dust particles in the center of a dark glassmorphic surface, professional product promo style, premium lighting, 8k resolution, cinematic render.`
