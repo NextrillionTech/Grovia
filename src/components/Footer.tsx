@@ -35,7 +35,11 @@ const Linkedin: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   </svg>
 );
 
-export const Footer: React.FC = () => {
+interface FooterProps {
+  onNavigate?: (path: string) => void;
+}
+
+export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -70,18 +74,36 @@ export const Footer: React.FC = () => {
             </span>
           </div>
 
-          {/* Middle Column: Services Directory */}
+          {/* Middle Column: Solutions Directory */}
           <div className="col-span-1 md:col-span-4 flex flex-col items-start gap-5">
             <h4 className="text-white/70 text-[10px] sm:text-xs font-semibold uppercase tracking-widest">
-              Services
+              Solutions
             </h4>
             <ul className="flex flex-col gap-3 text-xs sm:text-sm text-white/70 font-normal">
-              <li>Website Design</li>
-              <li>Lead Funnels</li>
-              <li>Brand Identity</li>
-              <li>AI Marketing Automation</li>
-              <li>Google & Meta Ads</li>
-              <li>Monthly Retainers</li>
+              <li>
+                <button
+                  onClick={() => onNavigate?.('/saas')}
+                  className="hover:text-white transition-colors duration-300 text-left cursor-pointer bg-transparent border-none p-0 outline-none text-white/70"
+                >
+                  B2B SaaS Landing Pages
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => onNavigate?.('/schools')}
+                  className="hover:text-white transition-colors duration-300 text-left cursor-pointer bg-transparent border-none p-0 outline-none text-white/70"
+                >
+                  School Admissions Funnels
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => onNavigate?.('/coaching')}
+                  className="hover:text-white transition-colors duration-300 text-left cursor-pointer bg-transparent border-none p-0 outline-none text-white/70"
+                >
+                  Coaching & Personal Brands
+                </button>
+              </li>
             </ul>
           </div>
 

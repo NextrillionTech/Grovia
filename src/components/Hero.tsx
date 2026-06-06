@@ -35,7 +35,11 @@ const Twitter: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   </svg>
 );
 
-export const Hero: React.FC = () => {
+interface HeroProps {
+  onNavigate?: (path: string) => void;
+}
+
+export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const animationFrameIdRef = useRef<number | null>(null);
   const fadeStateRef = useRef<'in' | 'out' | null>(null);
@@ -248,6 +252,34 @@ export const Hero: React.FC = () => {
 
             <nav className="hidden md:flex items-center gap-8 ml-10">
               <a href="#about" className="text-white/80 hover:text-white text-sm font-medium transition-colors">About</a>
+              <div className="relative group py-2">
+                <button className="text-white/80 hover:text-white text-sm font-medium transition-colors flex items-center gap-1 bg-transparent border-none p-0 cursor-pointer focus:outline-none">
+                  Solutions
+                  <svg className="w-3 h-3 text-white/50 group-hover:text-white transition-colors duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div className="absolute top-full left-0 mt-1.5 w-48 rounded-xl bg-black/95 backdrop-blur-md border border-white/10 p-1.5 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-50 shadow-2xl flex flex-col gap-0.5">
+                  <button
+                    onClick={() => onNavigate?.('/saas')}
+                    className="text-left text-xs text-white/70 hover:text-white hover:bg-white/10 px-3 py-2.5 rounded-lg transition-colors cursor-pointer bg-transparent border-none w-full"
+                  >
+                    B2B SaaS
+                  </button>
+                  <button
+                    onClick={() => onNavigate?.('/schools')}
+                    className="text-left text-xs text-white/70 hover:text-white hover:bg-white/10 px-3 py-2.5 rounded-lg transition-colors cursor-pointer bg-transparent border-none w-full"
+                  >
+                    Schools
+                  </button>
+                  <button
+                    onClick={() => onNavigate?.('/coaching')}
+                    className="text-left text-xs text-white/70 hover:text-white hover:bg-white/10 px-3 py-2.5 rounded-lg transition-colors cursor-pointer bg-transparent border-none w-full"
+                  >
+                    Coaching
+                  </button>
+                </div>
+              </div>
               <a href="#why-grovia" className="text-white/80 hover:text-white text-sm font-medium transition-colors">Why Grovia</a>
               <a href="#services" className="text-white/80 hover:text-white text-sm font-medium transition-colors">Services</a>
               <a href="#work" className="text-white/80 hover:text-white text-sm font-medium transition-colors">Work</a>
