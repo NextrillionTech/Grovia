@@ -17,6 +17,7 @@ import { WhatsAppWidget } from './components/WhatsAppWidget';
 import { SaaSLandingPage } from './components/SaaSLandingPage';
 import { SchoolsLandingPage } from './components/SchoolsLandingPage';
 import { CoachingLandingPage } from './components/CoachingLandingPage';
+import { IntroVideoSection } from './components/IntroVideoSection';
 
 function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
@@ -60,6 +61,7 @@ function App() {
             <ServicesSection />
             <PortfolioSection />
             <FAQSection />
+            <IntroVideoSection />
             <FinalCTASection />
           </main>
           <Footer onNavigate={navigate} />
