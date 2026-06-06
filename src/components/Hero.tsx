@@ -242,7 +242,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
 
       {/* Navbar */}
       <header className="relative z-20 w-full px-6 py-6">
-        <div className="liquid-glass rounded-full max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">
+        <div className="liquid-glass rounded-full max-w-5xl mx-auto px-6 py-3 flex items-center justify-between !overflow-visible">
 
           {/* Left Side: Monogram + Wordmark & Links */}
           <div className="flex items-center">
