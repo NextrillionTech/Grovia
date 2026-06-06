@@ -35,13 +35,13 @@ export const IntroVideoSection: React.FC = () => {
       
       <div className="w-full max-w-5xl text-center mb-10 relative z-10">
         <span className="text-[10px] font-semibold uppercase tracking-widest text-[#E1E0CC]/80 bg-white/5 px-3 py-1.5 rounded-full border border-white/5 inline-block mb-4 select-none animate-pulse">
-          Process Video
+          Intro Video
         </span>
         <h2 className="text-3xl sm:text-5xl font-serif text-white font-normal mb-4">
-          How we build your <span className="italic text-white/60">growth engine.</span>
+          Meet <span className="italic text-white/60">Grovia Labs.</span>
         </h2>
         <p className="text-white/70 text-xs sm:text-sm max-w-xl mx-auto leading-relaxed">
-          Watch our 90-second walkthrough mapping out the landing page conversion leaks and how Grovia builds high-converting systems.
+          Watch our 60-second introduction to see how we replace bloated retainers with custom-engineered React funnels built for conversions.
         </p>
       </div>
 
